@@ -267,7 +267,7 @@ export const roleRoutes: AppRouteRecordRaw[] = [
               {
                 path: '/menu/nested/menu3/menu3-1',
                 name: 'NestedMenu3-1',
-                component: () => import('@views/menu/nested/menu3/menu3-1.vue'),
+                component: () => import('@views/menu/nested/menu3/Menu3-1.vue'),
                 meta: {
                   title: '菜单3-1',
                   title_en: 'Menu 3-1'
@@ -284,7 +284,7 @@ export const roleRoutes: AppRouteRecordRaw[] = [
                   {
                     path: '/menu/nested/menu3/menu3-2/menu3-2-1',
                     name: 'NestedMenu3-2-1',
-                    component: () => import('@views/menu/nested/menu3/menu3-2/menu3-2-1.vue'),
+                    component: () => import('@views/menu/nested/menu3/menu3-2/Menu3-2-1.vue'),
                     meta: {
                       title: '菜单3-2-1',
                       title_en: 'Menu 3-2-1'
