@@ -45,7 +45,7 @@ const routes = [
       {
         path: 'console',
         name: 'Console',
-        component: () => import(`@views/dashboard/console/index.vue`),
+        component: () => import(`@views/dashboard/Console/index.vue`),
         meta: {
           title: '工作台',
           title_en: 'Workbench',
