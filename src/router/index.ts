@@ -26,7 +26,7 @@ export type AppRouteRecordRaw = RouteRecordRaw & {
 }
 
 // 首页
-export const HOME_PAGE = '/dashboard/Console'
+export const HOME_PAGE = '/dashboard/console'
 
 // 不需要权限的路由
 const routes = [
